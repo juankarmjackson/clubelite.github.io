@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: "Varela Round";
+    margin: 0;
+}
+
+.primera{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondojc.png);
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.primera .areas{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.primera .areas a{
+    padding: 15px;
+    box-shadow: 0px 0px 10px 6px white;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.primera .areas a:hover{
+    background-color: #FD84FE;
+    color: white;
+    box-shadow: 0px 0px 10px 6px white;
+}
+
+/* .primera h1{
+    color: white;
+    font-size: 30px;
+} */
+
+.primera img{
+    width: 350px;
+    filter: drop-shadow(0 2px 5px rgba(242, 226, 221, 0.7));
+}
+
+.segunda {
+    height: 100vh;
+    padding: 15px;
+    background-image: url(../img/fondojc2.png);
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    position: relative;
+}
+
+.segunda img{
+    width: 350px;
+    filter: drop-shadow(0 2px 5px rgba(242, 226, 221, 0.7));
+    z-index: 1;
+}
+
+.segunda .marketingdigital{
+    z-index: 1;
+    padding: 10px;
+}
+
+.segunda .marketingdigital a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.segunda .marketingdigital a:hover{
+    text-decoration: none;
+    background-color: #FD84FE;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 6px white;
+}
+
+.segunda .capa{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,.56);
+
+}
+
+.tercera {
+    height: 100vh;
+    padding: 15px;
+    background-image: url(../img/fondojc4.png);
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* position: relative; */
+    flex-direction: column;
+}
+
+.tercera img{
+    width: 350px;
+    box-shadow: 0px 0px 10px 6px white;
+    border-radius: 30px;
+}
+
+.tercera a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.tercera a:hover{
+    text-decoration: none;
+    background-color: #FD84FE;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 6px white;
+}
+
+.tercera .seccion1{
+    text-align: center;
+}
+
+.tercera .seccion2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tercera .seccion2 .linea{
+    animation: 1s lineacreciente 4s forwards;
+}
+
+.tercera .seccion2 .leyenda{
+    padding: 10px;
+}
+
+.cuarta {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-image: url(../img/fondojc5.gif);
+    background-size: cover;
+    color: white;
+}
+
+.cuarta img{
+    width: 350px;
+    box-shadow: 0px 0px 10px 6px white;
+    border-radius: 30px;
+}
+
+.cuarta a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cuarta a:hover{
+    text-decoration: none;
+    background-color: #FD84FE;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 6px white;
+}
+
+.quinta{
+    height: 100vh;
+    background-image: url(../img/fondojc6.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.quinta img{
+    width: 350px;
+    filter: drop-shadow(0 -3px 19px rgba(242, 226, 221, 0.7));
+}
+
+.quinta .text{
+    color: white;
+    background: rgba(225, 225, 225, -0.2);
+    backdrop-filter: blur(37px);
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.planes{
+    padding: 10px;
+    background-image: url(../img/fondojc8.png);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planes .plan{
+    margin: 10px;
+    padding: 10px;
+    background: rgba(225, 225, 225, -0.2);
+    backdrop-filter: blur(37px);
+    position: relative;
+    overflow: hidden;
+}
+
+.planes .recomendado{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(43px,48px) rotate(45deg);
+    font-size: 15px;
+    background: white;
+    color: black;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+@keyframes lineacreciente {
+    from {
+        width: 2px;
+        background-color: white;
+        height: 0px;
+    }
+    to {
+        width: 2px;
+        background-color: white;
+        height: 100px;
+    }
+  }
